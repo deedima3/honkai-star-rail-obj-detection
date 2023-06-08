@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "honkai-star-rail-obj-detection"
+version = "0.1.0"
+description = ""
+authors = ["Gede Sudimahendra <54178249+deedima3@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "honkai_star_rail_recognition"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+ultralytics = "^8.0.114"
+clearml = "^1.11.0"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
