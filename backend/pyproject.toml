@@ -10,6 +10,10 @@ packages = [{include = "honkai_star_rail_recognition"}]
 python = ">=3.10,<3.12"
 ultralytics = "^8.0.114"
 clearml = "^1.11.0"
+cuda-python = "^12.1.0"
+torch = "^2.0.1"
+torchvision = "^0.15.2"
+torchaudio = "^2.0.2"
 
 
 [tool.poetry.group.dev.dependencies]
