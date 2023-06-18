@@ -9,4 +9,4 @@ services:
       args:
         PORT: 3000
     ports:
-      - 9005:3000
+      - 9006:3000
