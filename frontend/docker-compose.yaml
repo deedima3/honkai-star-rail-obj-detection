@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  balitrib-fe:
+    container_name: hsr-fe
+    image: hsr-fe
+    build:
+      context: .
+      args:
+        PORT: 3000
+    ports:
+      - 9005:3000
